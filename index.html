@@ -52,7 +52,11 @@
       </div>
     <div class="form-group">
         <label for="civility">Civility</label>
-        <input type="text" id="civility" name="civility" class="form-control" placeholder="Enter civility">
+        <input name="civilite" type="text" placeholder="choissisez votre civilite" list="civilite" required class="form-control">
+            <datalist id="civilite">
+                <option value="Homme">
+                <option value="Femme">
+            </datalist>
       </div>
     <div class="form-group">
         <label for="login">Login</label>
